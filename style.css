@@ -1,0 +1,32 @@
+header { display: flex;}
+.nav-back { background-color: #fb832f;}
+form { height: min-content; margin-bottom: 0px; margin-right: 0px;}
+.text-ttl { color: #f25245;}
+#home, #menu1, #menu2, #menu3, #menu4, #menu5 { height: 25rem;}
+.btn-text { color: white;}
+.btn-text:hover { color: white;}
+.years { list-style: none;}
+.year-item { text-decoration: none; color: black;}
+.college { font-family: 'Times New Roman', Times, serif;}
+hr { width: 245px; opacity: 1;}
+.tab-content {
+    height: 150vh;
+}
+.grid {
+    flex: 1 1 auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 15vmax;
+    padding-right: 20px;
+}
+.grid-item {
+    padding: 20px;
+    background: #58585c;
+}
+footer { display: flex; flex-direction: row; position: absolute;}
+.footer {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
